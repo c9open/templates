@@ -102,7 +102,7 @@ sh /home/ubuntu/.profile
 bash /home/ubuntu/.profile 
 [[ "$(bash /home/ubuntu/.profile 2>&1)" == "" ]]
 
-# Patched procps from https://github.com/cloud9ide/procps
+# Patched procps from https://github.com/cloud9ideopen/procps
 # [ -e /var/lib/c9/memory ]
 ps aux >/dev/null
 free >/dev/null

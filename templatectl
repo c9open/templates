@@ -94,7 +94,7 @@ update_sdk() {
 		git -C /c9sdk fetch
 		git -C /c9sdk reset --hard origin/master
 	else
-		git clone https://github.com/c9/core.git /c9sdk
+		git clone https://github.com/c9open/core.git /c9sdk
 	fi
 	chown -R ubuntu. /c9sdk
 	EOF
